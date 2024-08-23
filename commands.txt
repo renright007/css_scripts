@@ -1,0 +1,10 @@
+css-data-apps master-dash start --path app.py --authorized-groups 00galx5r7ZZUuJsyJ696 --install-packages --include-directory --size=lg
+
+css-data-apps install master-dash --path app.py --authorized-groups 00galx5r7ZZUuJsyJ696 --install-packages --include-directory --size=lg
+
+css-data-apps upgrade master-dash --path app.py --authorized-groups 00galx5r7ZZUuJsyJ696 --install-packages --include-directory --size=lg
+
+css-data-apps dev-server stop
+
+css-data-apps dev-server start --path app.py --authorized-groups 00galx5r7ZZUuJsyJ696 --install-packages --size=lg
+
